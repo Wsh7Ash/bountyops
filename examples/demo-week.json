@@ -1,0 +1,29 @@
+{
+  "week": "2026-W44",
+  "items": [
+    {
+      "program": "alpha",
+      "state": "retesting",
+      "tags": ["idor", "orders", "multi-tenant"],
+      "note": "Fix for F-118 shipped in 2.32.1; re-run the minimal repro from clean state."
+    },
+    {
+      "program": "alpha",
+      "state": "report-writing",
+      "tags": ["impact", "severity"],
+      "note": "Cross-tenant invoice read confirmed; needs impact quantification and severity rationale."
+    },
+    {
+      "program": "beta",
+      "state": "triage",
+      "tags": ["graphql", "authorization"],
+      "note": "Introspection exposes internal types; decide queue rank and effort band before testing."
+    },
+    {
+      "program": "beta",
+      "state": "followup",
+      "tags": ["duplicate", "payout"],
+      "note": "Duplicate verdict on the export path; compare root causes and ask about partial credit."
+    }
+  ]
+}
